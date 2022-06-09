@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async defer></script>
+    <title>Responsive Navbar</title>
+    <script src="https://kit.fontawesome.com/a1d9a79f68.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div id="page-container">
+    <nav class="navbar">
+      <div class="brand-title">H</div>
+      <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        <!--each ot the above three spans will represent three lines that we use to expand and hide a content in the navbar. if there are two spans, there will only be two line and if there are 10 spans there will be 10 lines....  -->
+      </a>
+      <div class="navbar-links">
+          <ul>
+              <li> <a class="active" href="#"> HOME</a></li>
+              <li> <a href="./ABOUT ME/aboutme.html">ABOUT</a></li>
+              <li> <a href="./PROJECTS/projects.html">PROJECTS</a></li>
+              <li> <a href="./CV/cv.html">CV</a></li>
+              <li> <a href="./CONTACT/contact.html">CONTACT ME</a></li>
+          </ul>
+  
+      </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+   
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="overlay-image" style="background-image:url(./images/image\ 1.jpg);">
+          </div>
+          <div class="container">
+            <h1>Welcome To My Website</h1>
+            <p>This page was created using HTML, JavaScript and css. however i have also done other projects using other things like react. read the projects section of my page to know more about me and the projects I have made in the past few months.
+            </p>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image:url(./images/image\ 1.jpg);"></div>
+          <div class="container">
+            <h1>INTRO</h1>
+            <p> My name Haftu and I am a junior softwer developer. I started this journey few months ago. Programming is a mentaly stimulating and keeepss me busy. I would like to get an opportunity to work in this field. 
+              
+            </p>
+            
+          </div>
+          
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image:url(./images/image\ 1.jpg);"></div>
+          <div class="container">
+            <h1>abebe</h1>
+            <p>What is Lorem Ipsum?
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
+            </p>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer-content">
+      </br>
+      <hr>
+        <ul class="socials">
+          <li> <a href="https://www.facebook.com/Haftu52/"> <i class="fa-brands fa-facebook" style="font-size:30px;"></i> </a></li>
+          <li> <a href="https://www.linkedin.com/in/haftu-derbew/"> <i class="fa-brands fa-linkedin"style="font-size:30px;"></i></a></li>
+          <li> <a href="https://github.com/haf-abe"><i class="fa-brands fa-github"style="font-size:30px;"></i></a></li>
+        </ul>
+        
+          <p  class="footer-bottom"> copyright &copy; 2022. Designed by <span> H A Derbew</span></p>
+        
+      </div>
+      
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
